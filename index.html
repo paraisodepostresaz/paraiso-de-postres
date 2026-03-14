@@ -4,68 +4,174 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paraíso de Postres</title>
+<meta name="description" content="Paraíso de Postres – Deliciosos postres para eventos, fiestas y ocasiones especiales en Arizona. Ordena flan, fresas con crema, ensaladas de frutas y mucho más.">
 <style>
 body{font-family:Arial, sans-serif;margin:0;background:#fff7f2;color:#333}
-header{background:#ff7aa2;color:white;padding:20px;text-align:center}
-nav{background:#ff9fbd;padding:10px;text-align:center}
-nav a{color:white;margin:0 15px;text-decoration:none;font-weight:bold}
-section{padding:40px;text-align:center}
-.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
-.card{background:white;border-radius:12px;padding:20px;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
-footer{background:#ff7aa2;color:white;text-align:center;padding:15px}
-button{background:#ff7aa2;border:none;color:white;padding:12px 20px;border-radius:8px;cursor:pointer}
+header{background:#ff7aa2;color:white;padding:30px;text-align:center}
+header h1{margin:0;font-size:40px}
+header p{margin-top:10px;font-size:18px}
+nav{background:#ff9fbd;padding:12px;text-align:center}
+nav a{color:white;margin:0 15px;text-decoration:none;font-weight:bold;font-size:16px}
+section{padding:60px 20px;text-align:center;max-width:1000px;margin:auto}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px;margin-top:30px}
+.card{background:white;border-radius:15px;padding:25px;box-shadow:0 6px 14px rgba(0,0,0,0.1);transition:transform .2s}
+.card:hover{transform:translateY(-5px)}
+.card h3{margin-top:0}
+button,.order-btn{background:#ff7aa2;border:none;color:white;padding:14px 24px;border-radius:10px;cursor:pointer;font-size:16px;text-decoration:none;display:inline-block;margin-top:15px}
+.order-btn:hover{background:#ff5f8d}
+.payments{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:25px}
+.pay{background:white;padding:15px 20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.08)}
+footer{background:#ff7aa2;color:white;text-align:center;padding:20px;margin-top:40px}
 </style>
 </head>
 <body>
 
 <header>
 <h1>Paraíso de Postres</h1>
-<p>Los mejores postres para tu antojo</p>
+<p>Postres deliciosos para cualquier ocasión</p>
 </header>
 
 <nav>
 <a href="#inicio">Inicio</a>
 <a href="#menu">Menú</a>
+<a href="#precios">Precios</a>
+<a href="#eventos">Eventos</a>
+<a href="#ordenar">Ordenar</a>
+<a href="#pagos">Pagos</a>
 <a href="#contacto">Contacto</a>
 </nav>
 
 <section id="inicio">
 <h2>Bienvenido a Paraíso de Postres</h2>
-<p>Disfruta nuestros deliciosos postres como flan, fresas con crema, ensalada de frutas y mucho más.</p>
+<p>En <strong>Paraíso de Postres</strong> creamos momentos dulces para cada ocasión. Nuestros postres están preparados con ingredientes frescos, dedicación y mucho amor. Ofrecemos una gran variedad de delicias perfectas para disfrutar en casa, compartir con la familia o celebrar momentos especiales.</p>
+
+<p>También realizamos pedidos para <strong>cumpleaños, bodas, fiestas, reuniones familiares, eventos empresariales y celebraciones especiales</strong>. Nuestro objetivo es que cada evento tenga un toque dulce y memorable.</p>
 </section>
 
 <section id="menu">
 <h2>Nuestros Postres</h2>
+<p>Algunas de nuestras especialidades:</p>
+
 <div class="menu">
 <div class="card">
-<h3>Flan</h3>
-<p>Flan casero con caramelo.</p>
+<h3>Flan Casero</h3>
+<p>Delicioso flan tradicional con caramelo preparado al estilo casero.</p>
 </div>
 <div class="card">
-<h3>Fresas con crema</h3>
-<p>Fresas frescas con crema dulce.</p>
+<h3>Fresas con Crema</h3>
+<p>Fresas frescas acompañadas de nuestra crema dulce especial.</p>
 </div>
 <div class="card">
-<h3>Ensalada de frutas</h3>
-<p>Frutas frescas y deliciosas.</p>
+<h3>Ensalada de Frutas</h3>
+<p>Mezcla de frutas frescas perfecta para un postre ligero y delicioso.</p>
 </div>
 <div class="card">
-<h3>Más postres</h3>
-<p>Pregunta por nuestras especialidades.</p>
+<h3>Postres Especiales</h3>
+<p>Pregunta por nuestras opciones especiales y postres de temporada.</p>
 </div>
 </div>
+</section>
+
+<section id="precios">
+<h2>Precios de Algunos Postres</h2>
+<p>Estos son algunos precios base. Para eventos grandes o pedidos especiales contáctanos.</p>
+<div class="menu">
+<div class="card">
+<h3>Flan Casero</h3>
+<p>Desde $5 por porción</p>
+</div>
+<div class="card">
+<h3>Fresas con Crema</h3>
+<p>Desde $6 por vaso</p>
+</div>
+<div class="card">
+<h3>Ensalada de Frutas</h3>
+<p>Desde $6 por vaso</p>
+</div>
+<div class="card">
+<h3>Pedidos para Eventos</h3>
+<p>Precios especiales dependiendo la cantidad.</p>
+</div>
+</div>
+</section>
+
+<section id="eventos">
+<h2>Postres para Eventos</h2>
+<p>Ofrecemos servicio de postres para todo tipo de eventos:</p>
+<p>🎉 Cumpleaños<br>💍 Bodas<br>🎊 Fiestas familiares<br>🏢 Eventos empresariales<br>🎈 Celebraciones especiales</p>
+<p>Podemos preparar pedidos grandes o personalizados para que tu evento sea inolvidable.</p>
+</section>
+
+<section id="ordenar">
+<h2>Ordena tus Postres</h2>
+<p>Completa el siguiente formulario para hacer tu pedido directamente. Te responderemos para confirmar tu orden y enviar los detalles de pago.</p>
+<form onsubmit="enviarWhatsApp(event)" style="max-width:600px;margin:auto;text-align:left">
+<label>Nombre:</label><br>
+<input id="nombre" type="text" required style="width:100%;padding:10px;margin:8px 0"><br>
+<label>Teléfono o WhatsApp:</label><br>
+<input id="telefono" type="text" required style="width:100%;padding:10px;margin:8px 0"><br>
+<label>Postre que deseas:</label><br>
+<input id="postre" type="text" required style="width:100%;padding:10px;margin:8px 0"><br>
+<label>Cantidad:</label><br>
+<input id="cantidad" type="number" required style="width:100%;padding:10px;margin:8px 0"><br>
+<label>Fecha de entrega o evento:</label><br>
+<input id="fecha" type="date" required style="width:100%;padding:10px;margin:8px 0"><br>
+<label>Detalles adicionales:</label><br>
+<textarea id="detalles" rows="4" style="width:100%;padding:10px;margin:8px 0"></textarea>
+<button type="submit" class="order-btn">Enviar Pedido</button>
+</form>
+<script>
+function enviarWhatsApp(e){
+ e.preventDefault();
+ var nombre=document.getElementById('nombre').value;
+ var telefono=document.getElementById('telefono').value;
+ var postre=document.getElementById('postre').value;
+ var cantidad=document.getElementById('cantidad').value;
+ var fecha=document.getElementById('fecha').value;
+ var detalles=document.getElementById('detalles').value;
+ var mensaje="Hola, quiero hacer un pedido en Paraíso de Postres:%0A"+"Nombre: "+nombre+"%0A"+"Teléfono: "+telefono+"%0A"+"Postre: "+postre+"%0A"+"Cantidad: "+cantidad+"%0A"+"Fecha: "+fecha+"%0A"+"Detalles: "+detalles;
+ window.open("https://wa.me/16027772228?text="+mensaje,'_blank');
+}
+</script>
+<p style="margin-top:25px;font-weight:bold">Política de Depósito</p>
+<p>Para confirmar cualquier pedido o evento se requiere un <strong>depósito del 50% del total</strong>. Este depósito asegura la fecha de tu evento y el inicio de la preparación de los postres.</p>
+<p>El restante 50% se paga al momento de la entrega o recogida del pedido.</p>
+</section>
+
+<section id="pagos">
+<h2>Métodos de Pago</h2>
+<p>Aceptamos diferentes métodos de pago para tu comodidad:</p>
+<div class="payments">
+<div class="pay">💳 Tarjeta de Débito / Crédito</div>
+<div class="pay">📱 Zelle</div>
+<div class="pay">💵 Efectivo</div>
+<div class="pay">📲 Cash App</div>
+<div class="pay">🌐 PayPal</div>
+</div>
+<p style="margin-top:20px">Los detalles de pago se envían después de confirmar tu pedido.</p>
 </section>
 
 <section id="contacto">
 <h2>Contacto</h2>
-<p>Haz tu pedido hoy.</p>
-<p>Teléfono / WhatsApp: +1 000 000 0000</p>
-<button>Ordenar ahora</button>
+<p>Contáctanos para hacer tu pedido o preguntar por nuestros postres.</p>
+<p><strong>Teléfono / WhatsApp:</strong> +1 602 777 2228 (Principal)<br>+1 602 318 7648 (Ayudante)</p>
+<a class="order-btn" href="https://wa.me/16027772228" target="_blank">Hacer un Pedido</a>
 </section>
 
 <footer>
 <p>© 2026 Paraíso de Postres - Todos los derechos reservados</p>
+<p>Postres para eventos, fiestas y órdenes particulares</p>
 </footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/16027772228" target="_blank" style="position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:15px 18px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 4px 10px rgba(0,0,0,0.2);z-index:1000">💬 Pedir</a>
+
+<!-- Sección futura para galería de fotos -->
+<section id="galeria" style="padding:60px 20px;text-align:center;max-width:1000px;margin:auto">
+<h2>Galería de Nuestros Postres</h2>
+<p>Aquí podrás ver fotos reales de nuestros postres. Muy pronto estaremos agregando imágenes de flan, fresas con crema, ensaladas de frutas y más.</p>
+<p>Si deseas ordenar algo que veas en nuestras fotos, simplemente presiona el botón de WhatsApp y envíanos un mensaje.</p>
+</section>
 
 </body>
 </html>
